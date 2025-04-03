@@ -28,7 +28,8 @@ function showError() {
   const child = stopButton;
   const errorText = document.createElement("p");
   errorText.setAttribute("id", `error-text`);
-  errorText.textContent = "This browser hasn't any built-in voice!";
+  errorText.textContent =
+    "This browser hasn't any built-in voice!\ntested browser:google chrome";
   errorText.style.color = "red";
   parent.insertBefore(errorText, child);
 }
